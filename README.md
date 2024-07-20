@@ -1,5 +1,4 @@
 Title: Bikestore Database Project
-Subtitle: SQL Queries, Stored Procedures, Transactions, and Views
 
 The Bikestore database is a comprehensive dataset designed to manage and track various aspects of a bike store's operations. 
 It is divided into two main schemas: 
