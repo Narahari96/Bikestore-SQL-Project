@@ -33,7 +33,7 @@ Columns: order_id, customer_id, order_status, order_date, required_date, shipped
 4. staffs: Holds information about the staff members, including their names, email addresses, and employment details.
 Columns: staff_id, first_name, last_name, email, phone, active, store_id, manager_id
 
-5.stores: Contains details about the store locations, including their addresses and contact information.
+5. stores: Contains details about the store locations, including their addresses and contact information.
 Columns: store_id, store_name, phone, email, street, city, state, zip_code
 
 -- Key Concepts Covered
