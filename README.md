@@ -6,8 +6,7 @@ It is divided into two main schemas:
 1. Productions
 2. Sales. 
 
-Production Schema
-The Production schema focuses on the products sold by the store. It includes the following tables:
+-- Production Schema focuses on the products sold by the store. It includes the following tables:
 
 1. brands: Stores information about the different brands of bikes and accessories available in the store.
 Columns: brand_id, brand_name
@@ -21,8 +20,7 @@ Columns: product_id, product_name, brand_id, category_id, model_year, list_price
 4. stocks: Tracks the inventory levels of products across different store locations.
 Columns: store_id, product_id, quantity
 
-Sales Schema
-The Sales schema manages the transactional and customer-related aspects of the business. It includes the following tables:
+-- Sales Schema manages the transactional and customer-related aspects of the business. It includes the following tables:
 
 1. customers: Stores information about the customers, including their contact details and demographic information.
 Columns: customer_id, first_name, last_name, phone, email, street, city, state, zip_code
@@ -39,7 +37,7 @@ Columns: staff_id, first_name, last_name, email, phone, active, store_id, manage
 5.stores: Contains details about the store locations, including their addresses and contact information.
 Columns: store_id, store_name, phone, email, street, city, state, zip_code
 
-Key Concepts Covered
+-- Key Concepts Covered
 1. Data Retrieval
 2. Data Manipulation
 3. Stored Procedures
